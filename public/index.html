@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <title>Tailwind</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <nav class="bg-white shadow-lg">
@@ -223,7 +224,7 @@
 
   <div class="bg-green-300 mt-5 flex p-10 justify-center">
     <form class="w-full max-w-lg">
-        <div class="flex">
+        <div class="flex flex-wrap">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label class="block uppercase text-xs text-gray-700 font-bold mb-2 tracking-wider" for="first-name">First Name</label>
             <input class="w-full border-2 border-green-500 text-gray-700 block py-3 px-4 rounded"  type="text" name="first-name " placeholder="Murat">
@@ -254,7 +255,89 @@
         </div>
     </div>
     </form>
-  </div>
+ </div>
+
+    <footer class="pt-40 px-4">
+        <div class="container justify-between mx-auto space-y-8 flex flex-col ml-10 xl:flex xl:flex-row ">
+            <div class="sm:w-full sm:text-left sm:ml-0 xl:flex xl:justify-start  xl:m-0  xl:w-1/5">
+                <a href="a" class="flex
+                md:justify-center lg:justify-center xl:justify-between xl:items-center xl:mr-6">
+                <div class="flex w-12 h-12  md:text-left">
+                    <img src="images/house.png" alt="" class="h-8 w-8 mr-2">
+                </div>
+                <span class="sm:text-left font-semibold text-gray-500 text-2xl ">
+                    Prime Properties
+                </span>
+            </a>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-x-3 gap-y-8 text-sm font-semibold  xl:w-4/5 xl:justify-end">
+                <div class="space-y-3">
+                 <h3 class="text-green-500 uppercase tracking-wide">Product</h3>  
+                 <ul class="space-y-1">
+                    <li> 
+                        <a href="">Features</a>
+                    </li>
+                    <li> 
+                        <a href="">Integrations</a>
+                    </li>
+                    <li> 
+                        <a href="">Pricing</a>
+                    </li>
+                    <li> 
+                        <a href="">FAQ</a>
+                    </li>
+                 </ul> 
+                </div>
+                <div class="space-y-3">
+                     <h3 class="text-green-500 uppercase tracking-wide">Company</h3>
+                     <ul class="space-y-1">
+                        <li> 
+                            <a href="">Privacy</a>
+                        </li>
+                        <li> 
+                            <a href="">Terms of Service</a>
+                        </li>
+                        
+                     </ul> 
+                 </div>
+                 <div class="space-y-3">
+                    <h3 class="text-green-500 uppercase tracking-wide">Developers</h3>
+                    <ul class="space-y-1">
+                       <li> 
+                           <a href="">Privacy</a>
+                       </li>
+                       <li> 
+                           <a href="">Terms of Service</a>
+                       </li>
+                       
+                    </ul> 
+                </div>
+                <div class="space-y-3">
+                    <h3 class="text-green-500 uppercase tracking-wide">Social Media</h3>
+                   <div class="flex justify-start space-x-3 text-xl">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+
+                   </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr class="color-black"><br>
+        <div class="text-center text-green-500 mb-4">
+            © 1966, Company.co. All rights reserved.
+        </div>
+    </footer>
+ 
 
 
 <!-- contact us -->
